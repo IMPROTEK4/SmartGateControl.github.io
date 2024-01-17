@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.MAIN {
+    width: 375px;
+    height: 802px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding-top: 10px;
+    /* background-color: green; */
+    border-radius: 30px;
+}
+
+
+
+.header {
+    width: 360px;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    background-color: rgb(216, 214, 214);
+    -webkit-box-shadow: 0px 1px 2px 2px rgb(31, 29, 29);
+    -moz-box-shadow: 0px 1px 2px 2px rgb(31, 29, 29);
+    box-shadow: 0px 1px 2px 2px rgb(31, 29, 29);
+    border-radius: 5px;
+}
+.header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    margin: auto;
+}
+
+
+.contain {
+    width: 350px;
+    height: 590px;
+    /* background-color: aqua; */
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-left: 10px;
+    background-color: rgb(216, 214, 214);
+    -webkit-box-shadow: 0px 1px 2px 2px rgb(31, 29, 29);
+    -moz-box-shadow: 0px 1px 2px 2px rgb(31, 29, 29);
+    box-shadow: 0px 1px 2px 2px rgb(31, 29, 29);
+    border-radius: 20px;
+}
+
+.contain .btnOpen {
+    margin-top: 0px;
+}
+.contain .btnStop {
+    margin-top: 50px;
+}
+.contain .btnClose {
+    margin-top: 50px;
+}
+
+
+.contain .button {
+    color: #ecf0f1;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 180px;
+    height: 140px;
+    border-radius: 20px;
+    padding: 2px;
+    /* margin-left: 200px; */
+    transition: all .1s;
+    margin-left: 85px;
+}
+   
+.button:active {
+    position: relative;
+    top: 2px;
+}
+
+.contain #button_open {
+    background-color: green;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 10px 0px green;
+}
+.contain #button_open:active {
+    box-shadow: 0px 2px 0px yellow;
+}
+
+.contain #button_stop {
+    background-color: red;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 10px 0px red;
+}
+.contain #button_stop:active {
+    box-shadow: 0px 2px 0px yellow;
+}
+
+.contain #button_close {
+    background-color: green;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 10px 0px green;
+}
+.contain #button_close:active {
+    box-shadow: 0px 2px 0px yellow;
+}
+
+.footer {
+    width: 360px;
+    height: 40px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(216, 214, 214);
+    -webkit-box-shadow: 0px 1px 2px 2px rgb(31, 29, 29);
+    -moz-box-shadow: 0px 1px 2px 2px rgb(31, 29, 29);
+    box-shadow: 0px 1px 2px 2px rgb(31, 29, 29);
+    border-radius: 5px;
+}
+.footer h2 { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
